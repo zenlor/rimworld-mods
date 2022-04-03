@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Medieval Prosthetics</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+            <!-- success>Always</success -->
+            <operations>
+                <!-- Research -->
+				<li Class="PatchOperationReplace"> 
+					<xpath>/Defs/ResearchProjectDef[defName="CrudeLimbs"]/baseCost</xpath>
+					<value>
+                        <baseCost>500</baseCost>
+                    </value>
+				</li>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ResearchProjectDef[defName="ArtificialLimbs"]/baseCost</xpath>
+                    <value>
+                        <baseCost>1500</baseCost>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ResearchProjectDef[defName="MechanicalLimbs"]/baseCost</xpath>
+                    <value>
+                        <baseCost>2500</baseCost>
+                    </value>
+                </li>
+            </operations>
+        </match>
+    </Operation>
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Medieval Medicine</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+            <operations>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ResearchProjectDef[defName="EarlyMedievalMedicine"]/baseCost</xpath>
+                    <value>
+                        <baseCost>500</baseCost>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ResearchProjectDef[defName="EarlyMedievalMedicine"]/techLevel</xpath>
+                    <value>
+                        <techLevel>Neolithic</techLevel>
+                    </value>
+                </li>
+            </operations>
+        </match>
+    </Operation>
+</Patch>

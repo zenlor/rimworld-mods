@@ -1,0 +1,39 @@
+[h2]Small tweaks to Medieval Overhaul and related mods[/h2]
+
+[url=https://github.com/zenlor/rimworld-motweaks]Released under MIT license[/url]
+
+These patches use the xml patching system of Rimworld, it will add a few milliseconds to the loading time. The only hard requirement is [url=https://steamcommunity.com/workshop/filedetails/?id=2023507013]Vanilla Expanded Framework[/url] which does the heavy lifting for hard patches.
+
+[h3]Fixes[/h3]
+
+[list]
+[*] Workbench's recipe bills, it's possible to craft anything craftable in the crafting spot
+[*] Tailor Bench's recipe bills to accept anything craftable in a Hand Tailor Bench
+[*] Cooking Table's recipe bills to accept anything made for Electric Stove
+[/list]
+
+
+[h3]General Changes[/h3]
+
+[list]
+[*] Bows are not medieval technology (poor tribals!)
+[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=836308268]Dubs Bad Hygiene[/url] Irrigation is moved to medieval. Irrigation is a cornerstone of the medieval ages [i](*)[/i]
+[*] Early [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2109206579]Medieval Medicine[/url] is cheaper to research and it's moved to neolithic tech (in the end it's just a set of bandages and medical herbs) [i](*)[/i]
+[*] Early [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2101545242&searchtext=medieval]Medieval Prosthetics[/url] is cheaper to research, this is still tied to the medieval era.
+[/list]
+
+[h3]Integration and patches[/h3]
+
+[list]
+[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=836308268]Dubs Bad Hygiene[/url] Sprinklers use Basic Components
+[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2630669656]RimFantasy Gemstones[/url] can be mined using a mineshaft with enought time
+[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2451324814][noparse][SYR][/noparse] Trait Value[/url] integration for [i]Fighter[/i] and [i]Veteran[/i] traits
+[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1103809207]More Linkables[/url] buildings can [i]link[/i] to [i]rustic[/i] medieval benches.
+[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2506046833]Cash Register[/url] replace industrial components.
+[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2501487160]Fortifications - Medieval - Material[/url] replace steel ingots with iron.
+[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2571189146]Windows[/url] replace Steel ingots with Iron ingots, replace Plasteel with Steel ingots.
+[/list]
+
+[hr][/hr]
+
+[i](*)[/i] Standalone patches. Patches marked don't require Medieval Overhaul. These might be useful for light-medieval or era-like playthrough (eg. using TechBlock or Tech Advancing).
